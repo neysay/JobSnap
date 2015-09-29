@@ -41,17 +41,18 @@ First set the database engine (PostgreSQL, MySQL, etc..) in your settings files;
 `python ./src/manage.py migrate`
 
 ### Ready? Go!
-`cd src`
-`python manage.py runserver`
-
+```
+$ cd src
+$ python manage.py runserver
+```
 
 ## Sample Images
-![home_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTMU1uQXl4QWZ3Z00/view?usp=sharing)
-![home_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTNG8wLV96UVNqUm8/view?usp=sharing)
-![employee_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTWS1Hdk42d1Q3UlU/view?usp=sharing)
-![employee_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTX0d5U0hQRS1Ganc/view?usp=sharing)
-![employer_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTX1dUc1RrVVRtSzA/view?usp=sharing)
-![employer_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTRm5waXY1ZUN6cWs/view?usp=sharing)
+![home_desktop](sample_images/home_desktop.png)
+![home_mobile](sample_images/home_mobile.png)
+![employee_mobile](sample_images/employee_mobile.png)
+![employee_desktop](sample_images/employee_desktop.png)
+![employer_mobile](sample_images/employer_mobile.png)
+![employer_desktop](sample_images/employer_desktop.png)
 
 
 
