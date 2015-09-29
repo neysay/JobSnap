@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JobSnap</title>
+</head>
+<body>
+{% block content %}
+<div class="row text-center">
+            
+    <div class="col-sm-6">
+        <p><a href="/employee">Are you looking for a job?</a></p>
+        <a href="/employee"><img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_iphone_employer_50_trimmed.png' %}"/></a>
+    </div>
+    <div class="col-sm-6">
+        <p><a href="/employer">Are you a company looking to hire?</a></p>    
+        <a href="/employer"><img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_iphone_employee_50_trimmed.png' %}"/></a>
+    </div>
+
+</div>
+
+
+{% endblock %}
+
+
+</body>
+
+</html>

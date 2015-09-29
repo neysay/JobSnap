@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JobSnap</title>
+</head>
+<body>
+	{% block content %}
+	
+		<div class="row">
+		    
+		    <div class="col-sm-4">
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <!-- <div class="well">2</div> -->
+		                <img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_video_icon_trimmed.png' %}"/>
+		                <p class="text-center"><b>Record a video</b> with your phone to tell your story in 30 seconds or less. Video allows you to <b>be creative</b> and <b>stand apart!</b></p>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <!-- <div class="well">3</div> -->
+		                <img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_hand_icon_trimmed.png' %}"/>
+		                <p class="text-center">JobSnap uses smart technology to <b>match you</b> with the <b>best job opportunities.</b> Swipe "like" or "dislike".  <b>Just like Tinder.</b></p>
+		            </div>
+		        </div>
+		   </div>
+		   
+		   <div class="col-sm-4 col-sm-push-4">
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <!-- <div class="well">4</div> -->
+		                <img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_paper_icon_trimmed.png' %}"/>
+		                <p class="text-center"> We believe the paper resume is outdated.  <b>With JobSnap your resume is a video.</b></p>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <!-- <div class="well">5</div> -->
+		                <img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_pin_icon_trimmed.png' %}"/>
+		                <p class="text-center"> JobSnap focuses on <b>local, entry level positions</b> in retail, restaurants, and hospitality as well as <b>internship opportunities</b> in all industries.</p>
+		            </div>
+		        </div>
+		    </div>
+		    
+		    <div class="col-sm-4 col-sm-pull-4">
+		        <!-- <div class="well">1 -->
+		        <img class="img-responsive center-block" alt="Responsive image" src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_iphone_employer_trimmed.png' %}"/>
+		            <!-- <br/>
+		            <br/>
+		            <br/>
+		            <br/>
+		            <br/> -->
+		        </div>
+		    </div>
+		    
+		</div>
+	
+	{% endblock %}
+	
+	
+</body>
+
+</html>

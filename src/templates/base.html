@@ -1,0 +1,65 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Static Top Navbar Example for Bootstrap</title>
+    {% include 'head_css.html' %}
+    
+
+    
+
+
+  </head>
+
+  <body>
+    {% include 'navbar.html' %}
+    
+
+
+    <div class="container">
+        {% block jumbotron %}
+            <!-- Main component for a primary marketing message or call to action -->
+            <div class="jumbotron">
+	           <h1>
+	               <img src="{% static 'img/Jobsnap-Version2-Candidate-Mobile_Logo_trimmed.png' %}"/>
+	           </h1>
+	           <br>
+	           <p><b>{{description}}</b><br><span class="lightblue">Coming Summer 2015</span></p>
+	           <p </p>
+	           <p></p>
+	           <p>
+	               <form method='POST' action='' class="bootstrap3" > 
+	                   {% csrf_token %}
+	                   {% crispy form %} 
+	                   <!-- <input class='btn btn-primary' type='submit' value='Get Early Access' /> -->
+	               </form>
+	               <!-- <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a> -->
+	           </p>
+	       </div>
+        {% endblock %}
+        
+        {% block content %}
+        
+        {% endblock %}
+
+    
+    </div> <!-- /container -->
+
+    {% include 'js.html' %}
+    
+    
+
+    
+    
+  </body>
+</html>
