@@ -48,11 +48,13 @@ $ python manage.py runserver
 
 ## Sample Images
 ![home_desktop](sample_images/home_desktop.png)
+![employee_desktop](sample_images/employee_desktop.png)
+![employer_desktop](sample_images/employer_desktop.png)
+
 ![home_mobile](sample_images/home_mobile.png)
 ![employee_mobile](sample_images/employee_mobile.png)
-![employee_desktop](sample_images/employee_desktop.png)
 ![employer_mobile](sample_images/employer_mobile.png)
-![employer_desktop](sample_images/employer_desktop.png)
+
 
 
 
