@@ -16,7 +16,7 @@ wsgiref==0.1.2
 ## Installation
 
 ### 1. Download
-Now, you need the *django-sample-app* project files in your workspace:
+Now, you need the *JobSnap* project files in your workspace:
 
     $ cd /path/to/your/workspace
     $ git clone https://github.com/neysay/JobSnap.git jobSnapCo
@@ -43,3 +43,16 @@ First set the database engine (PostgreSQL, MySQL, etc..) in your settings files;
 ### Ready? Go!
 `cd src`
 `python manage.py runserver`
+
+
+## Sample Images
+![home_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTMU1uQXl4QWZ3Z00/view?usp=sharing)
+![home_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTNG8wLV96UVNqUm8/view?usp=sharing)
+![employee_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTWS1Hdk42d1Q3UlU/view?usp=sharing)
+![employee_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTX0d5U0hQRS1Ganc/view?usp=sharing)
+![employer_mobile](https://drive.google.com/file/d/0B9qNQxXOUdeTX1dUc1RrVVRtSzA/view?usp=sharing)
+![employer_desktop](https://drive.google.com/file/d/0B9qNQxXOUdeTRm5waXY1ZUN6cWs/view?usp=sharing)
+
+
+
+
