@@ -19,8 +19,8 @@ wsgiref==0.1.2
 Now, you need the *JobSnap* project files in your workspace:
 
     $ cd /path/to/your/workspace
-    $ git clone https://github.com/neysay/JobSnap.git jobSnapCo
-    $ cd jobSnapCo
+    $ git clone https://github.com/neysay/JobSnap.git jobsnapCo
+    $ cd jobsnapCo
     $ virtualenv env
     $ source env/bin/activate
 
@@ -32,11 +32,11 @@ Right there, you will find the *requirements.txt* file that has all the great de
 ### 3. Tweaks
 
 #### SECRET_KEY
-Go to <http://www.miniwebtool.com/django-secret-key-generator/>, create your secret key, copy it. Open your `jobSnapCo/settings/default.py`, find `SECRET_KEY` line, paste your secret key.
+Go to <http://www.miniwebtool.com/django-secret-key-generator/>, create your secret key, copy it. Open your `src/jobsnapCo/settings.py`, find `SECRET_KEY` line, paste your secret key.
 
 
 #### Initialize the database
-First set the database engine (PostgreSQL, MySQL, etc..) in your settings files; `jobSnapCo/settings/default.py`. Of course, remember to install necessary database driver for your engine. Then define your credentials as well. Time to finish it up:
+First set the database engine (PostgreSQL, MySQL, etc..) in your settings files; `src/jobsnapCo/settings.py`. Of course, remember to install necessary database driver for your engine. Then define your credentials as well. Time to finish it up:
 
 `python ./src/manage.py migrate`
 
