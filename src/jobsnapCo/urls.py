@@ -24,7 +24,6 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^employee/', 'jobsnap.views.employee', name='employee'),
     url(r'^employer/', 'jobsnap.views.employer', name='employer'),
-    url(r'^test/', 'jobsnap.views.test', name='test'),
 ]
 
 if settings.DEBUG:
